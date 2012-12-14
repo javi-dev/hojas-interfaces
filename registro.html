@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hojas de Personaje | Registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+
+      .form-signup {
+        max-width: 600px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signup .form-signup-heading,
+      .form-signup .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signup input[type="text"],
+      .form-signup input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+
+      #inputEmail {
+        margin-bottom: -5px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Hojas de Personaje</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Inicio</a></li>
+              <li><a href="#about">Acerca de</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Nombre de usuario">
+              <input class="span2" type="password" placeholder="Contrase&ntilde;a">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form class="form-signup form-horizontal">
+        <h2 class="form-signup-heading">Registro</h2>
+        <div class="control-group">
+          <label class="control-label" for="inputNombre">Nombre de Usuario</label>
+          <div class="controls">
+            <input type="text" id="inputNombre" placeholder="Nombre de Usuario">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputEmail">Email</label>
+          <div class="controls">
+            <input type="text" id="inputEmail" placeholder="Email">
+            <span class="help-block">Opcional. Utilizado para recordar la contrase&ntilde;a en caso de p&eacute;rdida.</span>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputPassword">Contrase&ntilde;a</label>
+          <div class="controls">
+            <input type="password" id="inputPassword" placeholder="Contrase&ntilde;a">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputPassword2">Repetir contrase&ntilde;a</label>
+          <div class="controls">
+            <input type="password" id="inputPassword2" placeholder="Repetir contrase&ntilde;a">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls">
+            <label class="checkbox">
+              <input type="checkbox"> Recordarme
+            </label>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </div>
+        </div>
+      </form>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
