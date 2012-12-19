@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hojas de Personaje | Nueva Hoja de Personaje</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Hojas de Personaje</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="biblioteca.html">Biblioteca</a></li>
+              <li class="active"><a href="crear.html">Nueva Hoja de Personaje</a>
+              <li><a href="#about">Acerca de</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Nombre de usuario">
+              <input class="span2" type="password" placeholder="Contrase&ntilde;a">
+              <a href="biblioteca.html" class="btn btn-primary">Entrar</a>
+            </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Nueva Hoja de Personaje</h1>
+      <div class="row">
+        <div class="span3 offset4">
+          <form class="form-inline">
+            <legend>Sistema de juego</legend>
+            <select>
+              <option disabled="disabled">Ars Magica (&iexcl;Muy pronto!)</option>
+              <option>Savage Worlds</option>
+              <option disabled="disabled">Seventh Sea (&iexcl;Muy pronto!)</option>
+              <option disabled="disabled">Spirit of the Century (&iexcl;Muy pronto!)</option>
+              <option disabled="disabled">Star Wars D6 (&iexcl;Muy pronto!)</option>
+            </select>
+          </form>
+        </div>
+      </div>
+      <form>
+        <legend>Savage Worlds</legend>
+        <div class="row">
+          <div class="span12">
+            <input class="span1" type="text" placeholder="Charisma">
+            <input class="span1" type="text" placeholder="Pace">
+            <input class="span1" type="text" placeholder="Parry">
+            <input class="span1" type="text" placeholder="Toughness">
+          </div>
+        </div><!-- /first row -->
+        <div class="row">
+          <div class="span4">
+            <fieldset>
+              <legend>Attributes</legend>
+              <input type="text" placeholder="Agility"><span class="help-inline">Agility</span>
+              <input type="text" placeholder="Smarts"><span class="help-inline">Smarts</span>
+              <input type="text" placeholder="Spirit"><span class="help-inline">Spirit</span>
+              <input type="text" placeholder="Strength"><span class="help-inline">Strength</span>
+              <input type="text" placeholder="Valor"><span class="help-inline">Valor</span>
+            </fieldset>
+          </div>
+          <div class="span4">
+            <input type="text" placeholder="Name">
+            <span class="help-block">Name</span>
+            <input type="text" placeholder="Profession">
+            <span class="help-block">Profession</span>
+            <textarea rows=3 placeholder="Setting Rules"></textarea>
+            <span class="help-block">Setting Rules</span>
+            <input type="text" placeholder="Quote">
+            <span class="help-block">Quote</span>
+          </div>
+          <div class="span4">
+            <fieldset>
+              <legend>Hindrances</legend>
+              <input type="text" placeholder="First Hindrance">
+              <input type="text" placeholder="Second Hindrance">
+              <input type="text" placeholder="Third Hindrance">
+              <input type="text" placeholder="Fourth Hindrance">
+            </fieldset>
+          </div>
+        </div><!-- /second row -->
+        <div class="row">
+          <div class="span8">
+            <fieldset>
+              <legend>Skills</legend>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+                <div class="controls controls-row">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                  <input class="span1" type="text" placeholder="Dice">
+                  <input class="span2" type="text" placeholder="Skill Name">
+                </div>
+            </fieldset>
+          </div>
+          <div class="span4">
+            <fieldset>
+              <legend>Edges</legend>
+              <input type="text" placeholder="First Edge">
+              <input type="text" placeholder="Second Edge">
+              <input type="text" placeholder="Third Edge">
+              <input type="text" placeholder="Fourth Edge">
+            </fieldset>
+            <fieldset>
+              <legend>Novice Edges</legend>
+              <input type="text" placeholder="First Edge">
+              <input type="text" placeholder="Second Edge">
+              <input type="text" placeholder="Third Edge">
+              <input type="text" placeholder="Fourth Edge">
+            </fieldset>
+          </div>
+        </div><!-- /third row -->
+        <div class="row">
+          <div class="span4">
+            <legend>Armor</legend>
+            <input type="text" placeholder="Head"><span class="help-inline">Head</span>
+            <input type="text" placeholder="Torso"><span class="help-inline">Torso</span>
+            <input type="text" placeholder="Arms"><span class="help-inline">Arms</span>
+            <input type="text" placeholder="Legs"><span class="help-inline">Legs</span>
+            <input type="text" placeholder="Total WT Carried"><span class="help-inline">Total weight carried</span>
+            <input type="text" placeholder="Weight Limit"><span class="help-inline">Weight limit</span>
+            <input type="text" placeholder="Encumbrance Penalty"><span class="help-inline">Encumbrance penalty</span>
+          </div>
+          <div class="span4">
+            <legend>Equipment</legend>
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+          </div>
+          <div class="span4">
+            <fieldset>
+              <legend>Seasoned Edges</legend>
+              <input type="text" placeholder="First Edge">
+              <input type="text" placeholder="Second Edge">
+              <input type="text" placeholder="Third Edge">
+              <input type="text" placeholder="Fourth Edge">
+            </fieldset>
+            <fieldset>
+              <legend>Veteran Edges</legend>
+              <input type="text" placeholder="First Edge">
+              <input type="text" placeholder="Second Edge">
+              <input type="text" placeholder="Third Edge">
+              <input type="text" placeholder="Fourth Edge">
+            </fieldset>
+          </div>
+        </div><!-- /fourth row -->
+        <div class="row">
+          <div class="span8" style="display:table">
+            <table class="table-condensed">
+              <thead>
+                <tr>
+                  <th>Power/Trapping</th>
+                  <th>Cost</th>
+                  <th>Range</th>
+                  <th>Damage/Effect</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Power/Trapping"></td>
+                  <td><input class="span1" type="text" placeholder="Cost"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span2" type="text" placeholder="Damage/Effect"></td>
+                  <td><input class="span1" type="text" placeholder="Duration"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Power/Trapping"></td>
+                  <td><input class="span1" type="text" placeholder="Cost"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span2" type="text" placeholder="Damage/Effect"></td>
+                  <td><input class="span1" type="text" placeholder="Duration"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Power/Trapping"></td>
+                  <td><input class="span1" type="text" placeholder="Cost"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span2" type="text" placeholder="Damage/Effect"></td>
+                  <td><input class="span1" type="text" placeholder="Duration"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Power/Trapping"></td>
+                  <td><input class="span1" type="text" placeholder="Cost"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span2" type="text" placeholder="Damage/Effect"></td>
+                  <td><input class="span1" type="text" placeholder="Duration"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Power/Trapping"></td>
+                  <td><input class="span1" type="text" placeholder="Cost"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span2" type="text" placeholder="Damage/Effect"></td>
+                  <td><input class="span1" type="text" placeholder="Duration"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="span4">
+            <fieldset>
+              <legend>Heroic Edges</legend>
+              <input type="text" placeholder="First Edge">
+              <input type="text" placeholder="Second Edge">
+              <input type="text" placeholder="Third Edge">
+              <input type="text" placeholder="Fourth Edge">
+            </fieldset>
+            <fieldset>
+              <legend>Legendary Edges</legend>
+              <input type="text" placeholder="First Edge">
+              <input type="text" placeholder="Second Edge">
+              <input type="text" placeholder="Third Edge">
+              <input type="text" placeholder="Fourth Edge">
+            </fieldset>
+          </div>
+        </div><!-- /fifth row -->
+        <div class="row">
+          <div class="span8">
+            <table class="table-condensed">
+              <thead>
+                <tr>
+                  <th>Weapon</th>
+                  <th>Range</th>
+                  <th>ROF</th>
+                  <th>Damage</th>
+                  <th>AP</th>
+                  <th>WP</th>
+                  <th>Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Weapon"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span1" type="text" placeholder="ROF"></td>
+                  <td><input class="span1" type="text" placeholder="Damage"></td>
+                  <td><input class="span1" type="text" placeholder="AP"></td>
+                  <td><input class="span1" type="text" placeholder="WP"></td>
+                  <td><input class="span1" type="text" placeholder="Notes"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Weapon"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span1" type="text" placeholder="ROF"></td>
+                  <td><input class="span1" type="text" placeholder="Damage"></td>
+                  <td><input class="span1" type="text" placeholder="AP"></td>
+                  <td><input class="span1" type="text" placeholder="WP"></td>
+                  <td><input class="span1" type="text" placeholder="Notes"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Weapon"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span1" type="text" placeholder="ROF"></td>
+                  <td><input class="span1" type="text" placeholder="Damage"></td>
+                  <td><input class="span1" type="text" placeholder="AP"></td>
+                  <td><input class="span1" type="text" placeholder="WP"></td>
+                  <td><input class="span1" type="text" placeholder="Notes"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Weapon"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span1" type="text" placeholder="ROF"></td>
+                  <td><input class="span1" type="text" placeholder="Damage"></td>
+                  <td><input class="span1" type="text" placeholder="AP"></td>
+                  <td><input class="span1" type="text" placeholder="WP"></td>
+                  <td><input class="span1" type="text" placeholder="Notes"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Weapon"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span1" type="text" placeholder="ROF"></td>
+                  <td><input class="span1" type="text" placeholder="Damage"></td>
+                  <td><input class="span1" type="text" placeholder="AP"></td>
+                  <td><input class="span1" type="text" placeholder="WP"></td>
+                  <td><input class="span1" type="text" placeholder="Notes"></td>
+                </tr>
+                <tr>
+                  <td><input class="span2" type="text" placeholder="Weapon"></td>
+                  <td><input class="span1" type="text" placeholder="Range"></td>
+                  <td><input class="span1" type="text" placeholder="ROF"></td>
+                  <td><input class="span1" type="text" placeholder="Damage"></td>
+                  <td><input class="span1" type="text" placeholder="AP"></td>
+                  <td><input class="span1" type="text" placeholder="WP"></td>
+                  <td><input class="span1" type="text" placeholder="Notes"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="span4">
+            <textarea rows=6 placeholder="Permanent Injuries"></textarea>
+          </div>
+        </div><!-- /sixth row -->
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary"><i class="icon-ok icon-white"></i> Guardar Cambios</button>
+          <button type="button" class="btn"><i class="icon-remove"></i> Cancelar</button>
+        </div>
+      </form>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
