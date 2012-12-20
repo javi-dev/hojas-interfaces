@@ -80,7 +80,7 @@
               <td>
                 <div class="btn-group">
                   <a class="btn" href="bilbo.html"><i class="icon-edit"></i> Editar</a>
-                  <a class="btn btn-danger" href="#"><i class="icon-trash icon-white"></i> Borrar</a>
+                  <a class="btn btn-danger" href="#aviso-borrar" data-toggle="modal"><i class="icon-trash icon-white"></i> Borrar</a>
                 </div>
               </td>
             </tr>
@@ -91,7 +91,7 @@
               <td>
                 <div class="btn-group">
                   <a class="btn" href="#"><i class="icon-edit"></i> Editar</a>
-                  <a class="btn btn-danger" href="#"><i class="icon-trash icon-white"></i> Borrar</a>
+                  <a class="btn btn-danger" href="#aviso-borrar" data-toggle="modal"><i class="icon-trash icon-white"></i> Borrar</a>
                 </div>
               </td>
             </tr>
@@ -102,7 +102,7 @@
               <td>
                 <div class="btn-group">
                   <a class="btn" href="#"><i class="icon-edit"></i> Editar</a>
-                  <a class="btn btn-danger" href="#"><i class="icon-trash icon-white"></i> Borrar</a>
+                  <a class="btn btn-danger" href="#aviso-borrar" data-toggle="modal"><i class="icon-trash icon-white"></i> Borrar</a>
                 </div>
               </td>
             </tr>
@@ -124,6 +124,20 @@
         </div>
       </div>
     </div> <!-- /container -->
+
+    <div id="aviso-borrar" class="modal hide fade">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>&iexcl;Atenci&oacute;n!</h3>
+      </div>
+      <div class="modal-body">
+        <p>La operaci&oacute;n de borrado no se puede deshacer, &iquest;est&aacute; seguro?</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="btn btn-primary" class="close" data-dismiss="modal" aria-hidden="true">&iexcl;No!</a>
+        <a href="#" class="btn btn-danger" class="close" data-dismiss="modal" aria-hidden="true">S&iacute;</a>
+      </div>
+    </div>
 
     <!-- Le javascript
     ================================================== -->
